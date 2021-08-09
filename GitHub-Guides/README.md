@@ -9,5 +9,9 @@
 - Session 4 : [깃헙 필수 기능 배우기](./github-must-know-features.md)
 - Session 5 : [협업 상황을 가정해 깃 명령어 사용해보기](./git-situations.md)
 - Post-Curriculum : [Git 설치하기 - 맥, 윈도우](./git-install-mac.md)
+- Post-Curriculum : [[GUI] SourceTree 사용하기](./gui-sourcetree.md)
+- Post-Curriculum : [[GUI] GitHub Desktop 사용하기](./gui-githubdesktop.md)
 - Post-Curriculum : [Git CLI Cheat Sheet - 깃 CLI 명령어 + α](https://cosadama.notion.site/Git-Cheat-Sheet-72faa5d1d29b45b88e7dc5eca830debc)
 - Post-Curriculum : [FAQ - 깃/깃헙 관련 질문 및 오류 해결](https://cosadama.notion.site/FAQ-Git-GitHub-90f9888bc76740c08d851d9b8eaae4b4)
+
+*본 커리큘럼은 기본적인 Git, GitHub 사용법을 익히는 것을 목표로 합니다. Branch, Amend, Cherry-Pick 등의 심화 내용은 심화 커리큘럼(런칭 일정 미정)에서 다룰 예정입니다.*
