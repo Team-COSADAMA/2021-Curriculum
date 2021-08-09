@@ -54,6 +54,8 @@ Super python beginner , a person who has just begun the python or says 'Python i
 * *Session 3* [Git Commands for CLI](./GitHub-Guides/git-commands.md)
 * *Session 4* [GitHub Features](./GitHub-Guides/github-must-know-features.md)
 * *Session 5* [Git Commands on Actual Work](./GitHub-Guides/git-situations.md)
+* *Post-Curriculum* [SourceTree 101](./gui-sourcetree.md)
+* *Post-Curriculum* [GitHub Desktop 101](./gui-githubdesktop.md)
 * *Post-Curriculum* [Git Commands Cheat Sheet](https://cosadama.notion.site/Git-Cheat-Sheet-72faa5d1d29b45b88e7dc5eca830debc)
 * *Post-Curriculum* [FAQ About Git/GitHub](https://cosadama.notion.site/FAQ-Git-GitHub-90f9888bc76740c08d851d9b8eaae4b4)
 
