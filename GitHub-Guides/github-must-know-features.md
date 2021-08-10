@@ -31,7 +31,7 @@ fork한 레포지토리에서의 변경 사항(커밋)을 오리지널 레포지
 그 다음으로 pull request에 대한 코멘트를 작성합니다. 코멘트는 앞서 배운 마크다운 문법으로 작성합니다. 코멘트까지 완료한 후 create pull request를 누르면 pull request(소위 풀리퀘) 완료!
 
 ### merge
-pull request를 오리지널 레포지토리에 적용하는 기능입니다. 당연한 이야기지만, merge하기 위해서는 해당 레포지토리에 대한 권한(access)이 있어야 합니다. pull request에 대한 merge는 결국 commit and push니까요.
+pull request를 오리지널 레포지토리에 적용하는 기능입니다. 당연한 이야기지만, merge하기 위해서는 해당 레포지토리에 대한 권한(access)이 있어야 합니다. pull request에 대한 merge는 결국 commit and push니까요. (권한 설정은 레포지토리 Settings>Manage Access에서 설정 가능합니다.)
 ![create pull request](./contents/checkpr.png)
 pull request가 생성된 경우 오리지널 레포지토리의 pull requests 섹션에 알림이 뜹니다.
 ![create pull request](./contents/mergepr.png)
