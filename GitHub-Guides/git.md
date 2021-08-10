@@ -1,5 +1,9 @@
 # 깃(git)이 뭔가요?
 
+### 깃이란?
+
+깃(Git)은 버전 관리 시스템의 일종이에요. 버전 관리 시스템은 파일 변화를 시간에 따라 기록했다가 나중에 특정 시점의 버전을 다시 꺼내올 수 있는 시스템이고요. 깃과 다른 버전 관리 시스템의 차이점은 심화 커리큘럼에서 소개할게요.
+
 ### 깃의 역할
 
 #### 1. 버전 관리
@@ -15,9 +19,16 @@
 ### 깃 사용 환경
 
 #### 1. GUI
-Graphic User Interface의 약자로, 일반적인 git 워크플로우를 쉽게 실행 가능하도록 돕는 방식입니다. 초보자도 사용이 쉽고 직관적이지만 git의 모든 기능을 지원하지는 않습니다. [GitHub Desktop](https://desktop.github.com/), [SourceTree](https://www.sourcetreeapp.com/) 등이 있습니다.
+![SourceTree 예시](./contents/GUI.png)
+
+
+Graphic User Interface의 약자로, 기능을 알기 쉬운 아이콘 등의 그래픽을 통해 사용자가 쉽고 편리하게 git을 사용 가능하도록 하는 방식을 의미합니다. 초보자도 사용이 쉽고 직관적이지만 git의 모든 기능을 지원하지는 않습니다. 대표적인 git GUI 소트프웨어로는 [GitHub Desktop](https://desktop.github.com/), [SourceTree](https://www.sourcetreeapp.com/) 등이 있습니다. 위 사진은 [SourceTree](https://www.sourcetreeapp.com/)의 레포지토리 히스토리 화면 예시입니다.
 
 #### 2. CLI
-Command Line Interface의 약자로, 터미널(윈도우는 Git Bash)에서 직접 git 명령어를 입력 받는 방식입니다. GUI와 달리 명령어를 알고 있어야만 사용이 가능합니다. 깃의 모든 기능을 사용 가능하며 깃 개념 이해에 도움을 준다는 장점이 있습니다.
+![Terminal 예시](./contents/CLI.png)
 
->본 커리큘럼은 편의성보다 깃 개념 이해가 우선이라 판단, CLI를 사용합니다.
+
+Command Line Interface의 약자로, 터미널(윈도우는 Git Bash)에서 직접 git 명령어를 입력 받는 방식입니다. GUI와 달리 명령어를 알고 있어야만 사용이 가능합니다. 깃의 모든 기능을 사용 가능하며 깃 개념 이해에 도움을 준다는 장점이 있습니다. 위 사진은 터미널(iTerm)을 통한 git 명령어 사용 예시입니다.
+
+
+>GUI의 경우 버튼 하나로 해결될 일이 CLI는 수번의 명령어를 입력해야 기능합니다. 편의성 측면에서는 GUI가 우수하나 git 각 기능의 개념을 이해하는 데에는 CLI를 사용하는 것이 좋습니다. 본 커리큘럼은 편의성보다 깃 개념 이해가 우선이라 판단, CLI를 사용합니다.
