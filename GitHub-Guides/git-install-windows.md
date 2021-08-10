@@ -33,7 +33,7 @@ $ git init이라는 명령어를 치면 생성되는 브랜치의 초기이름�
 ![./contents/install-7.png](./contents/install-7.png)   
 
 git pull에 대한 디폴트 양식도 지정해줍니다.   
-![./contents/install-6.png](./contents/gitpulldefault.png)   
+![./contents/gitpulldefault.png](./contents/gitpulldefault.png)   
 
 Credential Helper은 데이터 통신에 HTTP 프로토콜을 사용 시, 매번 입력해야 하는 인증정보를 저장하고 자동으로 입력해주는 시스템을 이야기합니다. 이것의 설치는 다음과 같이 설정합니다!   
 
