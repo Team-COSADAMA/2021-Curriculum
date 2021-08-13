@@ -1,4 +1,24 @@
-# 깃헙 필수 기능
+# 깃헙 기능 살펴보기
+
+## 깃헙 계정 만들기
+깃헙 기능을 배우기에 앞서, 깃헙 계정을 만들어봅시다.
+![signup btn](./contents/cg1.png)
+[깃헙 페이지](https://github.com/)에 접속하면 다음과 같은 화면이 뜹니다. 여기서 초록색 Sign up for GitHub 버튼을 눌러주세요.
+![signup form](./contents/cg2.png)
+이메일, 비밀번호, 닉네임, 이메일 수신 여부, 인간(!) 여부를 확인합니다. 차례차례 기입해나가 주세요.
+![signup code](./contents/cg3.png)
+create account를 누르면 이메일 인증 단계로 넘어옵니다. 직전에 기입한 이메일 계정을 확인해 도착한 6 글자 코드를 인증란에 적어주세요.
+![personalization](./contents/cg4.png)
+완료 했다면 다음과 같은 창이 뜹니다. personalization 페이지인데, 여러분이 앞으로 깃헙을 쓰는 목적에 따라 세부 설정 및 소프트웨어 등을 추천, 내장해주는 페이지입니다. 저는 하단에 있는 skip personalization을 눌렀지만, 관심 있는 분들은 설정해보시는 것도 좋을 것 같습니다.
+![github timeline](./contents/cg5.png)
+personalization을 스킵 혹은 완료하고 나면 다음과 같은 페이지가 나옵니다. 깃헙의 기본 페이지로, 나의 깃헙 활동과 내가 팔로우하는 사람들의 활동을 보여주는 일종의 타임라인의 역할을 하는 페이지입니다. 우측 상단을 보면 동그란 프로필 이미지가 보이는데, 해당 프로필 이미지를 누른 후 나타나는 팝업 옵션에서 Your Profile을 눌러주세요.
+![github profile](./contents/cg6.png)
+이곳이 여러분의 깃헙 프로필 페이지입니다! 앞으로 깃헙에서 얼마나 기여(contribute)했는지가 나오는 dot그래프도 보이고, 활동을 타임라인으로 보여줄 activity란도 보이네요. 상단에는 온라인 깃 저장소인 Repository 버튼도 보이구요! 
+
+
+자, 그럼 Edit Profile을 눌러 기본적인 정보만 어서 기입하고 본격적인 GitHub 기능에 대해 배워봅시다.
+
+## 깃헙 필수 기능
 
 ### create repository
 자신의 깃헙 프로필에 들어와 Repositories 섹션을 누르면 우측 상단에 New 버튼이 있습니다. 해당 버튼을 누르면 새로운 레포지토리를 만들 수 있습니다. 혹은 우측 상단 + 버튼을 눌러도 New Repository 옵션을 클릭해 새로운 레포지토리를 만들 수 있습니다.
