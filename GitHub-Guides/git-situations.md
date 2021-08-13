@@ -9,6 +9,8 @@ Administrator | Collaborator | Contributor
 ## 배경 설명
 여기 오이카와와 스가와라라는 고등학교 3학년의 두 친구가 있습니다. 두 친구는 19년 최고 성적을 낸 배구 선수들을 분석해보려 해요. 오이카와가 제안한 프로젝트이기 때문에 작업 중간중간 스가가 도움을 주는 방식으로 진행하기로 했어요.
 
+> 시나리오 중 오이카와, 스가와라, 히나타가 수정하는 ipynb 파일의 최종본은  [다음](https://github.com/thepenielcho/Oisuga_for_github_guides/blob/master/2019_best_players_EDA.ipynb)과 같습니다.
+
 ## 작업 시나리오
 
 ### 오이카와 1
