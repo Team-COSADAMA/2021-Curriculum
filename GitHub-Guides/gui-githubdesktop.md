@@ -1,4 +1,4 @@
-# [GUI] GitHub Desktop 사용하기   
+# GUI 사용하기 - GitHub Desktop
 
 안녕하세요 여러분 😉 앞서 소개해드렸던 GitHub Desktop 사용법에 대해서 간단히 배워봅니다. 앞서 [깃이 뭔가요?](https://www.notion.so/7f89fd577d53467aa0815043abf581d5) 에서 알려드렸던 것처럼 Desktop 버전은 화면을 보면서 쉽게 git 작업을 할 수 있는 그래픽 사용자 인터페이스(Graphical User Interface, GUI) 입니다. 저희가 배워본 CLI(Command Line Interface) 보다는 사용자가 편리하게, 쉽게 사용할 수 있도록 기능을 알기 쉬운 아이콘 등으로 그래픽으로 나타낸 것입니다. 들어가기에 앞서 말씀드리자면, CLI 버전보다는 기능이 너무 제한 되어 있기 때문에 CLI에서 다룰 수 있는 –amend -f같은 옵션이나, reset, revert, rebase 등과 같은 고급 옵션은 사용할 수 없습니다. 하지만 주요 기능을 보다 쉽게 다뤄볼 수 있다는 점에서 git 초보자들이 믿고 따라 쓸 수 있는, 깔끔한 툴이에요 😊 실제로 간단한 작업에 저도 많이 사용하고 있어요. 그럼 사용법을 간단히 알아볼까요?   
 

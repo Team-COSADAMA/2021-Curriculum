@@ -1,4 +1,29 @@
-# [GUI] SourceTree 사용하기
+# GUI 사용하기 - SourceTree
+
+GUI 소프트웨어의 일종인 SourceTree 사용법에 대해 간단히 배워볼게요. GitHub Desktop이 더 유명하고 보편화되어 있음에도 SourceTree 교안을 따로 마련한 이유는 명령이 비교적 세분화되어 있기 때문이에요. 명령이 세분화되어 있다는 건 생략되는 과정이 적다는 의미고, 이는 CLI 사용 흐름을 이해를 도울 수 있어요.
+
+자, 그럼 본격적으로 SourceTree 사용법을 배워볼까요?
+
+## 설치 및 설정
+
+### 맥에서 설치하기
+
+맥 사용자 분들은 [applebuddy님의 블로그 포스팅](https://0urtrees.tistory.com/166)을 보고 설치해주세요.
+
+### 윈도우에서 설치하기
+
+윈도우 사용자 분들은 [사악미소님의 블로그 포스팅](https://velog.io/@saakmiso/Windows-%ED%99%98%EA%B2%BD-SourceTree-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)을 보고 설치해주세요.
+
+### 로컬 작업 폴더(Working Directory) 연결 및 생성하기
+
+존재하는 로컬 작업 폴더를 소스트리에서 열기 위해서는 다음 [공식문서](https://confluence.atlassian.com/get-started-with-sourcetree/add-an-existing-local-repository-847359105.html)를 참고해주세요.
+
+
+로컬에 작업 폴더를 생성하기 위해서는 다음 [공식문서](https://confluence.atlassian.com/get-started-with-sourcetree/create-a-local-repository-847359103.html)를 참고해주세요.
+
+### 깃헙 계정 연결하기
+
+깃헙 계정 연결을 위해서는 다음 [공식문서](https://confluence.atlassian.com/get-started-with-sourcetree/connect-your-bitbucket-or-github-account-847359096.html)를 참고해주세요.
 
 ## 설치
 
