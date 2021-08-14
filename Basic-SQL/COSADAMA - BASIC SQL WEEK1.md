@@ -63,7 +63,7 @@ __DBMS__ 는 __DataBase Management System__ 의 약자로, 다수의 사용자�
 __RDB__ 는 __Relational DataBase__ 의 약자로, __관계형 데이터베이스__ 를 말합니다. 관계형 데이터베이스는 key, value 값을 2차원 표(table or dataframe) 형식으로 나타내며, 하나의 데이터베이스 안에는 여러 테이블이 존재할 수 있습니다. 또한 테이블은 row(record)와 column으로 이루어져 있는데, 이때의 각 column은 특정 데이터 타입을 갖습니다. 데이터 타입에 대한 설명은 아래에서 진행하도록 하겠습니다. 
 따라서, __RDBMS ((Relational DataBase Management System)__ 는 관계형 데이터베이스, 즉 RDB를 생성, 갱신, 관리하기 위한 시스템을 의미합니다. row(record) 단위로 데이터 읽기/쓰기가 이루어지며, 보통 데이터를 조작하는 클라이언트가 SQL 언어로 서버에 요청하면 서버가 처리해 2차원 표 형태의 데이터를 반환합니다.   
 
-> 테이블? 레코드? 튜플? 
+> **테이블? 레코드? 튜플?**
 > 
 > 테이블table: pandas, R의 DataFrame입니다. 2차원 표라고 생각하시면 됩니다.
 > 
@@ -82,11 +82,13 @@ RDBMS의 종류는 앞서 SQL을 배우는 이유에서도 잠깐 언급했듯 �
 
 #### 2.3. PRIMARY/FOREIGN KEY 
 데이터베이스에서 사용하는 KEY는 기본적으로 TABLE의 열 (COLUMN)에 해당하며, 여러 종류가 있습니다. 이 KEY를 전부 아실 필요는 없지만, __PRIMARY, FOREIGN KEY의 관계__ 는 꼭 알아가시길 바랍니다.
-- CANDIDATE KEY (후보키): TABLE의 COLUMN 중 유일하게 식별할 수 있는 열 (아직 KEY 아님) candidate = 후보, 후보자. 따라서 CANDIDATE KEY는 PRIMARY KEY(기본키)가 될 수 있는 컬럼들을 의미합니다. 모든 UNIQUE, NOT NULL 특징을 갖는 컬럼이라고 primary key가 될 수는 없습니다. CANDIDATE KEY 중 **하나**만이 PRIMARY KEY가 될 수 있습니다. 그 테이블을 대표하는 키이기 때문에 하나만 가능합니다.
+- CANDIDATE KEY (후보키): TABLE의 COLUMN 중 유일하게 식별할 수 있는 열 (아직 KEY 아님)
 - **PRIMARY KEY(기본키)**:  TABLE의 COLUMN 중 유일하게 식별하기 위해 사용하는 열(KEY). python dictionary의 key를 떠올리시면 됩니다. 빈 값이 있어서는 안되고NOT NULL, 모든 값은 UNIQUE해야합니다.
     → 주민번호, 고객 번호, 제품 코드 등 유일한 값으로 이루어져 있다.
 - ALTERNATE KEY(대체키):  기본키PK를 제외한 후보키
 - **FOREIGN KEY(외래키)**: 다른 TABLE의 기본키 PK를 참조하는 열. 한 테이블에 여러 FOREIGN KEY가 있을 수 있음(여러 열 참조 가능)
+
+>  candidate = 후보, 후보자. 따라서 CANDIDATE KEY는 PRIMARY KEY(기본키)가 될 수 있는 컬럼들을 의미합니다. 모든 UNIQUE, NOT NULL 특징을 갖는 컬럼이라고 primary key가 될 수는 없습니다. CANDIDATE KEY 중 **하나**만이 PRIMARY KEY가 될 수 있습니다. 그 테이블을 대표하는 키이기 때문에 하나만 가능합니다.
 
 PRIMARY KEY (PK)와 FOREIGN KEY (FK)에 대해서 조금 더 자세히 알아보도록 하겠습니다. 
 예컨대 이러한 상품과 관련된 'PRODUCT' TABLE이 있다고 합시다.
