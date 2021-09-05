@@ -23,3 +23,5 @@
 - 자습 교안 3 : [Git CLI Cheat Sheet - 깃 CLI 명령어 + α](https://cosadama.notion.site/Git-Cheat-Sheet-72faa5d1d29b45b88e7dc5eca830debc)
 - 질의 응답 : [FAQ - 깃/깃헙 관련 질문 및 오류 해결](https://cosadama.notion.site/FAQ-Git-GitHub-90f9888bc76740c08d851d9b8eaae4b4)
 - 강의 자료 : [GitHub Guides 강의 PPT](./GitHub_Guides_PPT.pdf)
+
+*스크립트 업로드 및 실습 시나리오 업데이트 예정*
