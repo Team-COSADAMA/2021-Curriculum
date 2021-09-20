@@ -46,6 +46,7 @@
 ## 4. 스터디 유의사항
 
 - 커리큘럼의 뼈대는 네이버 부스트코스 '**기초 데이터분석을 위한 핵심 SQL**'을 따릅니다. 이외에도 inflearn의 잔재미코딩의 ''**SQL/DB(MySQL) 기본부터 파이썬/데이터분석 활용까지!**', 데이터리안의 '**[백문이불여일타]데이터 분석을 위한 초급/중급/고급  SQL**', 생활코딩의 Egoing Lee가 집필한 '**DataBase 1&2 MySQL**'을 참고했습니다.
+- 커리큘럼 환경: Anaconda 가상환경의 jupyter notebook을 이용합니다. colab을 사용할 경우 `(2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")` 에러가 발생합니다.
 
 
 
