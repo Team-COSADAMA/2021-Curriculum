@@ -66,9 +66,9 @@ Scrapy는 Selenium, BeautifulSoup에 비해 다양한 기능을 가지고 있고
 
 각각의 장단점이 궁금한 분들은 아래 글을 참고해보세요 😉
 
-[Python 웹 크롤러 도구 비교 및 사용 후기(Scrapy vs selenium vs Requests, urllib)](https://keyhyuk-kim.medium.com/python-%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%9F%AC-%EB%8F%84%EA%B5%AC-%EB%B9%84%EA%B5%90-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0-scrapy-vs-selenium-vs-requests-urllib-6483041ca1ba)
+- [Python 웹 크롤러 도구 비교 및 사용 후기(Scrapy vs selenium vs Requests, urllib)](https://keyhyuk-kim.medium.com/python-%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%9F%AC-%EB%8F%84%EA%B5%AC-%EB%B9%84%EA%B5%90-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0-scrapy-vs-selenium-vs-requests-urllib-6483041ca1ba)
 
-</aside>
+<br>
 
 Scrapy를 통한 크롤링은
 
@@ -228,9 +228,9 @@ Scrapy는 터미널 환경에서 작업해야 합니다.
 
 
     ---
-
+    
     macOS 사용자분들은 아래 글의 3. 가상환경 활성화(activate) 부분을 참고해보세요 🤔
-
+    
     - [맥북 아나콘다 가상환경 생성/삭제/activate/deactivate](https://joytk.tistory.com/14)
 
 <br>
@@ -334,7 +334,7 @@ CSS Selector와 XPath를 사용해 데이터를 가져오는 법을 배워보겠
 1. 웹페이지에서 **ctrl+shift+c**를 누르고 원하는 데이터 클릭하면 개발자 도구(F12)에 경로 부분이 표시됩니다.
 
 2. 그 경로에 속하는 가장 가장 가까운 div부터 내려오는 형식으로 경로를 적어 내려가면 good!
-    
+   
     a. 마우스 오른쪽 클릭 > Copy를 해도 좋지만 가끔 오류가 뜹니다.
     
     b. 예: div id 속성이 csdm scrapy인 경우
@@ -377,11 +377,11 @@ CSS Selector와 XPath를 사용해 데이터를 가져오는 법을 배워보겠
 
 
     ---
-
+    
     CSS Selector 문법을 작성하는게 어렵게 느껴지면 아래 글을 참고해보세요.
-
+    
     - [CSS Selector를 사용한 크롤링](https://www.fun-coding.org/crawl_basic4.html)
-
+    
     <br>
 
 - **예제 2) XPath 경로**
@@ -416,7 +416,7 @@ CSS Selector와 XPath를 사용해 데이터를 가져오는 법을 배워보겠
 
 
     ---
-
+    
     - **XPath(XML Path Language)란?**
       
         XPath란 'XML 문서의 특정 요소나 속성에 접근하기 위한 경로를 지정하는 언어'를 의미합니다.
@@ -491,7 +491,7 @@ Users\JINI\Downloads\Scrapy\st11    # 명령어 실행위치
     <br>
     
 - **긁어와야 할 CSS Selector 경로 리스트 (5개)**
-    
+  
     1. 메인 카테고리 중 '브랜드패션' 부문 이름(글자)
     2. 브랜드패션 서브 카테고리 중 '브랜드 여성의류' 부문 이름(글자)
     3. 본인이 원하는 상품의
