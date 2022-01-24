@@ -1,6 +1,6 @@
 ![banner](./images/banner.png)
 
-※ 본 교안은 노션(notion)에서 작성되었습니다. 마크다운 파일로 변환하면서 빠진 파일들이 있습니다.
+※ 본 교안은 노션(notion)에서 작성되었습니다. 마크다운 파일은 가독성이 다소 떨어지며 빠진 파일들이 있습니다.
 
 완전한 내용의 교안은 아래 링크에서 확인해주세요 :)
 
@@ -65,12 +65,12 @@ Scrapy는 **터미널 환경**에서 작업합니다. 아래 영상은 본 커�
 
 ## 커리큘럼 목차
 
-| 주차  | 학습 내용                                                    |
-| :---: | ------------------------------------------------------------ |
-| **1** | **1. Scrapy 소개**<br />    1-1. Scrapy란?    <br />    1-2. Scrapy는 객체 지향 프로그래밍이다!<br />    1-3. Scrapy 설치하기<br />**2. Scrapy shell**<br />    2-1. Scrapy shell이란?<br />    2-2. Scrapy shell에서 CSS Selector와 XPath로 데이터 가져오기<br />**3. Scrapy 프로젝트 생성** |
-| **2** | **1. Spider(크롤러) 만들기**<br />    1-1. Spider 클래스<br />    1-2. Robots.txt(로봇 배제 표준)<br />**2. 크롤링 데이터 다루기**<br />    2-1. Item 만들기<br />    2-2. Spider 수정하기<br />    2-3. 데이터 저장하기<br />    2-4. 데이터 후처리하기 |
-| **3** | **1. 준비**<br />    1-1. 프로젝트, Spider(=크롤러) 만들기<br />    1-2. Item 만들기<br />    1-3. Request 메서드, callback과 meta 파라미터<br />**2. 실습**<br />    2-1. 메인 카테고리의 베스트 상품 크롤링<br />    2-2. 메인 카테고리, 서브 카테고리의 베스트 상품 크롤링<br />    2-3. 데이터 후처리 및 저장 |
-| **4** | **1. 실습 환경 준비**<br />    1-1. VS Code 설치하기<br />    1-2. VS Code 사용 팁 ⭐<br />    1-3. VS Code에서 작업하기<br />**2. Scrapy LOG_LEVEL** |
+| 주차  | 학습 내용                                                    | 링크                                                         |
+| :---: | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **1** | **1. Scrapy 소개**<br />    1-1. Scrapy란?    <br />    1-2. Scrapy는 객체 지향 프로그래밍이다!<br />    1-3. Scrapy 설치하기<br />**2. Scrapy shell**<br />    2-1. Scrapy shell이란?<br />    2-2. Scrapy shell에서 CSS Selector와 XPath로 데이터 가져오기<br />**3. Scrapy 프로젝트 생성** | [WEEK1](https://github.com/Team-COSADAMA/2021-Curriculum/blob/main/Advanced-WebCrawling/WEEK1.md) |
+| **2** | **1. Spider(크롤러) 만들기**<br />    1-1. Spider 클래스<br />    1-2. Robots.txt(로봇 배제 표준)<br />**2. 크롤링 데이터 다루기**<br />    2-1. Item 만들기<br />    2-2. Spider 수정하기<br />    2-3. 데이터 저장하기<br />    2-4. 데이터 후처리하기 | [WEEK2](https://github.com/Team-COSADAMA/2021-Curriculum/blob/main/Advanced-WebCrawling/WEEK2.md) |
+| **3** | **1. 준비**<br />    1-1. 프로젝트, Spider(=크롤러) 만들기<br />    1-2. Item 만들기<br />    1-3. Request 메서드, callback과 meta 파라미터<br />**2. 실습**<br />    2-1. 메인 카테고리의 베스트 상품 크롤링<br />    2-2. 메인 카테고리, 서브 카테고리의 베스트 상품 크롤링<br />    2-3. 데이터 후처리 및 저장 | [WEEK3](https://github.com/Team-COSADAMA/2021-Curriculum/blob/main/Advanced-WebCrawling/WEEK3.md) |
+| **4** | **1. 실습 환경 준비**<br />    1-1. VS Code 설치하기<br />    1-2. VS Code 사용 팁 ⭐<br />    1-3. VS Code에서 작업하기<br />**2. Scrapy LOG_LEVEL** | [WEEK4](https://github.com/Team-COSADAMA/2021-Curriculum/blob/main/Advanced-WebCrawling/WEEK4.md) |
 
 <br>
 
